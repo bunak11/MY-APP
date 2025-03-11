@@ -1,13 +1,13 @@
-import {useEffect} from "react"
+//import {useEffect} from "react"
 export const MyComponent = (props) => {
-	const date = new Date();
+	const date = new Date().toLocaleString();
 
-	useEffect(() => {
-		console.log(date);
+	// useEffect(() => {
+	// 	console.log(date);
 
-	}, []);
+	// }, []);
 
 	return (
-		<div>{String(date)}</div>
+		<div>{date}</div>
 	);
 }

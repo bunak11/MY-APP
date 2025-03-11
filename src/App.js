@@ -3,7 +3,7 @@ import {MyComponent} from './MyComponent';
 import './App.css';
 
  export const App = () => {
- 	const currentYear = new Date().getFullYear();
+ 	
  	return (
  		<div className="App">
  			<header className="App-header">
