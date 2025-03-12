@@ -1,11 +1,14 @@
-//import {useEffect} from "react"
-export const MyComponent = (props) => {
-	const date = new Date().toLocaleString();
+import {useState} from 'react'
 
-	// useEffect(() => {
-	// 	console.log(date);
+//const getTimeFromDate = (date) => date.toISOString().substring(11, 19);
+export const MyComponent = () => {
+	const [date, setDate] = useState(Math.random())
 
-	// }, []);
+	setTimeout (() => {
+		setDate(Math.random());
+	}, 1000);
+
+
 
 	return (
 		<div>{date}</div>

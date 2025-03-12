@@ -3,7 +3,7 @@ import {MyComponent} from './MyComponent';
 import './App.css';
 
  export const App = () => {
- 	
+
  	return (
  		<div className="App">
  			<header className="App-header">
@@ -19,6 +19,8 @@ import './App.css';
  				>
  					Learn React
  				</a>
+			<MyComponent />
+			<MyComponent />
 			<MyComponent />
  			</header>
  		</div>
